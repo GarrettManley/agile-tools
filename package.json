@@ -1,0 +1,14 @@
+{
+  "name": "agile-tools",
+  "version": "1.0.0",
+  "description": "Tools to help with the processes surrounding agile software development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agile"
+  ],
+  "author": "Garrett Manley",
+  "license": "ISC"
+}
