@@ -1,0 +1,28 @@
+@import '../../../../../styles/colors';
+@import '../../../../../styles/typography';
+@import '../../../../../styles/mixins';
+
+
+nav {
+  background-color: $color-brand;
+  color: $color-light;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include container();
+
+  .nav-brand {}
+
+  .nav-links {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+
+      li {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
