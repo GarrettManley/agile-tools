@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:400,500,700|Ubuntu:400,500&display=swap');
+
 $base-font-size: 16px;
 
 * {
   font-size: $base-font-size;
+  font-family: 'Ubuntu',
+    sans-serif;
+
+  h1 {
+    font-family: 'Rokkitt',
+      serif;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-family: 'Rokkitt',
+      serif;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-family: 'Rokkitt',
+      serif;
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-family: 'Rokkitt',
+      serif;
+  }
+
+  h5 {
+    font-family: 'Rokkitt',
+      serif;
+    font-size: 0.75rem;
+  }
+
+  h6 {
+    font-family: 'Rokkitt',
+      serif;
+    font-size: 0.5rem;
+  }
+
 }
