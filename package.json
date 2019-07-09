@@ -10,5 +10,8 @@
     "agile"
   ],
   "author": "Garrett Manley",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^8.1.0"
+  }
 }
