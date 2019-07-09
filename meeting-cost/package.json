@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o --hmr=true",
+    "start": "ng serve -o --aot",
     "push-update": "npm version patch && git add -A && git commit -m 'Version Number Patch' && git push",
     "import-packages": "cd ../shared && npm run pack && cd ../meeting-cost && npm uninstall components-lib && npm install ../shared/dist/components-lib/components-lib-0.0.1.tgz",
-    "build": "ng build",
+    "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
