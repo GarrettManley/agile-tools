@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build-c": "ng build components-lib",
+    "start": "ng s sandbox -o --aot",
+    "build": "ng build --aot",
+    "build-c": "ng build --aot components-lib",
     "package-c": "cd dist/components-lib && npm pack",
     "pack": "npm run build-c && npm run package-c",
     "test": "ng test",
