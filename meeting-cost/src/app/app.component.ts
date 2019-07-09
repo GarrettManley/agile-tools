@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'agt-root',
+  selector: 'mcc-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

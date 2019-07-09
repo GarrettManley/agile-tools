@@ -2,10 +2,10 @@ import { browser, by, element } from 'protractor';
 
 export class AppPage {
   navigateTo() {
-    return browser.get('/');
+    return browser.get(browser.baseUrl) as Promise<any>;
   }
 
-  getParagraphText() {
-    return element(by.css('agt-root h1')).getText();
+  getTitleText() {
+    return element(by.css('mcc-root h1')).getText() as Promise<string>;
   }
 }
