@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng s sandbox -o --aot",
     "build": "ng build --aot",
-    "build-c": "ng build --aot components-lib",
+    "build-c": "ng build components-lib",
     "package-c": "cd dist/components-lib && npm pack",
     "pack": "npm run build-c && npm run package-c",
     "test": "ng test",
