@@ -1,17 +1,18 @@
 {
-  "name": "agile-tools",
-  "version": "1.0.0",
-  "description": "Tools to help with the processes surrounding agile software development",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "agile"
-  ],
-  "author": "Garrett Manley",
-  "license": "ISC",
-  "dependencies": {
-    "@angular/cli": "^8.1.0"
-  }
+    "name": "agile-tools",
+    "version": "1.0.0",
+    "description": "Tools to help with the processes surrounding agile software development",
+    "main": "index.js",
+    "scripts": {
+        "setup": "npm i && cd ./shared && npm i && cd ../meeting-cost && npm run import-packages",
+        "meeting-cost": "cd ./meeting-cost && npm run start"
+    },
+    "keywords": [
+        "agile"
+    ],
+    "author": "Garrett Manley",
+    "license": "ISC",
+    "dependencies": {
+        "@angular/cli": "^8.1.0"
+    }
 }
