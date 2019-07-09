@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "push-update": "npm version patch && git add * && git commit -m 'Version Number Patch' && git push",
+    "push-update": "npm version patch && git commit -m 'Version Number Patch' && git push",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
